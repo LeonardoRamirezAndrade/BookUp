@@ -106,17 +106,19 @@ li {
 }
 
 .Img_grupo {
-    margin: 0 10px 20px auto;
-    padding: 5px;
+    margin: 0;
+    padding: 30px;
 }
 
-.letra_al_lado_del_img_h2 {
-    color: rgb(10, 12, 10);
+
+.ir-arriba {
     padding: 0;
-    text-align:left;
-    width: 85%;
     margin: 0;
-    position: relative;
-    left: 400px;
-    bottom: 205px;
+    display: none;
+    border-radius: 60px;
+    background:rgb(167, 120, 199);
+    cursor: pointer;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
