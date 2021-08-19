@@ -221,28 +221,6 @@ li {
     background: rgba(255, 1, 1, 0.699);
   }
 
-/*
-::-webkit-scrollbar{
-    background-image: linear-gradient(to left,#c6eaffd3, rgb(255, 233, 248));
-    width: 12px;
+.footer {
+    margin-top: auto;
 }
-::-webkit-scrollbar-thumb{
-    background: rgb(233, 188, 188);
-    border-radius: 12px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background: red;
-}
-
-::-webkit-scrollbar-thumb:active{
-    background-color: gold;
-}
-
-::-webkit-scrollbar-track{
-    background-image: linear-gradient(to left,#c6eaffd3, rgb(255, 233, 248));
-}
-
-::-webkit-scrollbar-track:hover{
-    background: rgb(253, 246, 207);
-}
-*/
