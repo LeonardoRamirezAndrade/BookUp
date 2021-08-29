@@ -1,0 +1,23 @@
+{
+  "name": "bookup",
+  "version": "1.0.0",
+  "main": "Arriba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoRamirezAndrade/BookUp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoRamirezAndrade/BookUp/issues"
+  },
+  "homepage": "https://github.com/LeonardoRamirezAndrade/BookUp#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
