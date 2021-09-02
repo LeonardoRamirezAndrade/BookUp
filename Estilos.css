@@ -212,6 +212,56 @@ li {
   margin: 20px;
 }
 
+.accordion{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+  min-height: 10vh;
+}
+.accordion .contentBx{
+  position: relative;
+  margin: 10px 20px;
+}
+.accordion .contentBx .label{
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #ffe2e2d3, #ffe9f8);
+  border: 1px solid #020202;
+  border-radius: 35px;
+}
+.accordion-text{
+  color: rgb(0, 0, 0);
+}
+.accordion .contentBx .label::before{
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accordion .contentBx .content{
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #ffe2e2d3, #ffe9f8);
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.accordion .contentBx.active .content{
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #020202;
+  border-radius: 25px;
+}
+
+.accordion .contentBx.active .label::before{
+  content: '-';
+}
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
